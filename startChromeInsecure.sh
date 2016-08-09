@@ -1,0 +1,1 @@
+screen /Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --disable-web-security --allow-running-insecure-content --unsafely-treat-insecure-origin-as-secure="http://me.avinternal.com" --user-data-dir=/Users/chuckg/canaryData
