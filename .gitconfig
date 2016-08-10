@@ -1,0 +1,33 @@
+[user]
+	name = Chuck Goss
+	email = chuck.goss@avention.com
+
+[color]
+    ui = auto
+
+[alias]
+  st = status
+  ci = commit -m 
+  co = checkout
+  lg = log -p  
+  last = log -1 HEAD
+  br = branch
+  db = branch -d
+  pr = pull --rebase
+  pick = cherry-pick
+  unm = reset --merge ORIG_HEAD
+
+[diff]
+    tool = opendiff
+
+[difftool]
+    prompt = false
+
+[merge]
+    tool = opendiff
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[core]
+	autocrlf = input
